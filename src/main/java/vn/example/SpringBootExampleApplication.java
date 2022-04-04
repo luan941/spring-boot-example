@@ -18,7 +18,7 @@ public class SpringBootExampleApplication {
 	@GetMapping("/hello")
 	public Message hello() {
 		return Message.builder()
-				.message("Hello World!")
+				.message("Hello World from Vinh!")
 				.code(200)
 				.build();
 	}
